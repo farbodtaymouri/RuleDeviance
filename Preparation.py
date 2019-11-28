@@ -77,14 +77,6 @@ class Transformation:
         #First computing the transform matrix (which provides class variables 'matrix_transform')
         self.__Matrix_tr_Compute(s)
 
-        '''wavelet_coefficients = np.round(np.dot(s, inv(self.matrix_transform)),3)
-        input_recover = np.round(np.dot(wavelet_coefficients, self.matrix_transform), 3)
-
-        print"the original input is:", s
-        print "The coefficients are:", wavelet_coefficients
-        print "The recovered input is:", input_recover'''
-
-
 
 
 
