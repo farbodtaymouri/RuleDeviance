@@ -41,8 +41,8 @@ def Main(log_path,d):
 
 
 
-    path1= 'C:/Users/taymouri/Desktop/model temp/trash2/Sepsis(age above 70).xes'
-    path2 ='C:/Users/taymouri/Desktop/model temp/trash2/Sepsis(age under 35).xes'
+    path1= 'C:/Users/taymouri/Desktop/model temp/trash2/logs/BPIC13_incidents_orgline_A2.xes'
+    path2 ='C:/Users/taymouri/Desktop/model temp/trash2/logs/BPIC13_incidents_orgline_C.xes'
 
 
 
