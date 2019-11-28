@@ -85,7 +85,7 @@ def Log_dic(log):
     return temp, dic_id
 
 #----------------------------------------------------------------------
-
+#Computing Duration time differences
 def Deviation_Timestamp(path,path2):
     def Read_XES(path):
         add = path
