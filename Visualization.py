@@ -369,23 +369,6 @@ def Deviant_Plot_ControlFlow_Time(log1,log2):
 
 
     # # adding edges
-    # temp = []
-    # for t in log:
-    #     for i in range(len(t) - 1):
-    #         if ([t[i], t[i + 1]] not in temp):
-    #             print "Temmp:", temp
-    #             if( tuple([t[i], t[i + 1]]) in common_edge):
-    #                 if ( ( tuple([t[i], t[i + 1]]) in deviant_element_plot1 ) or (tuple([t[i], t[i + 1]]) in deviant_element_plot2) ):
-    #                     temp.append([t[i], t[i + 1]])
-    #                     dot.edge(t[i], t[i + 1], color='red', label= str( deviant_elements_freq2[tuple([t[i], t[i + 1]])] ) ,style='bold')
-    #                 else:
-    #                     temp.append([t[i], t[i + 1]])
-    #                     dot.edge(t[i], t[i + 1],style='dashed')
-    #
-    #             else:
-    #                 temp.append([t[i], t[i + 1]])
-    #                 dot.edge(t[i], t[i + 1],style='dashed')
-    #
     # # Superimposing other deviations
     for key in common_deviant_elements:
         if (key in deviant_element_duration_time):
