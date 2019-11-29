@@ -372,9 +372,7 @@ def SVM_Classifier(evObj, matrix1,matrix2):
     :return:
         '''
 
-    # sys.stdout = open(os.devnull, "w")
-    # f = open(os.devnull, 'w')
-    # sys.stdout = f
+
 
     # Some features only happened in one class, therefore no need to run a classifier for them
     # like matrix1=[[],...[]]
