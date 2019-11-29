@@ -26,7 +26,13 @@ def Print_Screen_Off(exp):
 
 ############################################################################
 #This version of Main is created on 11/09/2109
-def Main(log_path,d):
+def Main(path1, path2):
+    '''
+
+    :param path1: Location of the first event log
+    :param path2: Location of the second event log
+    :return:
+    '''
 
     Print_Screen_Off('off')
 
@@ -46,7 +52,7 @@ def Main(log_path,d):
 
 
 
-
+    d=" "
     log1, id1 = rw.Reading_log_all(path1, d)
     log2, id2 = rw.Reading_log_all(path2, d)
 
